@@ -1,22 +1,25 @@
-const eqArrays = function (x, y){
-  let match = true
-  for(let i =0; i < x.length; i ++){
-  if (x[i] !== y[i]) {
-    match = false   
-  }  
-} return match
-
-}
-const assertArrayEqual = function(actual, expected) {
-  let equivalentArrays = eqArrays(actual, expected);
-  if (equivalentArrays === true) {
-    console.log(`😃😃😃😃 Assertion Passed: ${actual} === ${expected}`);
-  } else if (equivalentArrays ===false) {
-    console.log(`😡😡😡😡Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+// const eqArrays = function (x, y){
+  // let match = true
+  // for(let i =0; i < x.length; i ++){
+  // if (x[i] !== y[i]) {
+    // match = false   
+  // }  
+// } return match
+// 
+// }
+// const assertArrayEqual = function(actual, expected) {
+  // let equivalentArrays = eqArrays(actual, expected);
+  // if (equivalentArrays === true) {
+    // console.log(`😃😃😃😃 Assertion Passed: ${actual} === ${expected}`);
+  // } else if (equivalentArrays ===false) {
+    // console.log(`😡😡😡😡Assertion Failed: ${actual} !== ${expected}`);
+  // }
+// };
 
 //assertArrayEqual(actual, expected);
+
+// const eqArrays = require('./eqArrays.js');
+const assertArrayEqual = require('./assertArraysEqual.js');
 
 const middle = function(array) {
   let centre = Math.floor(array.length / 2)
@@ -36,6 +39,9 @@ const middle = function(array) {
     }
    return newArray
 }
-assertArrayEqual(middle([1,2,3]), [2])
-assertArrayEqual(middle([1,2]), [])
+
+module.exports = middle;
+
+// assertArrayEqual(middle([1,2,3]), [2])
+// assertArrayEqual(middle([1,2]), [])
 // console.log(middle([1,2,3]))
