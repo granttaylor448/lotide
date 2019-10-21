@@ -6,9 +6,11 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual("thissentencehasnospaces", "thissentencehasnospaces");
-assertEqual("apple", "banana");
-assertEqual(87, 88);
-assertEqual(666, 666);
+// assertEqual("Lighthouse Labs", "Bootcamp");
+// assertEqual(1, 1);
+// assertEqual("thissentencehasnospaces", "thissentencehasnospaces");
+// assertEqual("apple", "banana");
+// assertEqual(87, 88);
+// assertEqual(666, 666);
+
+module.exports = assertEqual;
