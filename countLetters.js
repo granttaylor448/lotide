@@ -57,3 +57,5 @@ const actual = countLetters("lighthouse in the house")
 
 assertEqual(actual['l'], 1)
 assertEqual(actual[' '], undefined)
+
+module.exports = countLetters;

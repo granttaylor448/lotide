@@ -65,3 +65,5 @@ const eqObjects = function(object1, object2) {
   const favoriteBooks= {mark: "harry potter"}
   const favoriteNovels= {mark: "harry potter"}
   console.log(assertObjectsEqual(favoriteBooks, favoriteNovels));
+
+  module.exports = assertObjectsEqual;

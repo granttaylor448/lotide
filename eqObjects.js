@@ -43,6 +43,8 @@ const eqObjects = function(object1, object2) {
     }
     return output
   }
+
+  module.exports = eqObjects;
   
 
 

@@ -40,3 +40,5 @@ console.log(letterPositions("hello"));
 
 const actual = letterPositions("hello world");
 assertArrayEqual(actual["l"],[2,3,8]);
+
+module.exports = letterPositions;
