@@ -19,4 +19,4 @@ const assertArrayEqual = function(actual, expected) {
   }
 };
 
-assertArrayEqual(actual, expected);
+assertArrayEqual(actual, expected)
