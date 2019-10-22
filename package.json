@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@granttaylor448/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Grant Taylor's lotide project LHL",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,9 @@
     "type": "git",
     "url": "git+https://github.com/granttaylor448/lotide.git"
   },
-  "author": "",
+  "author": { "name" : "Grant Taylor"
+    , "email" : "granttaylor448@gmail.com"
+    },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/granttaylor448/lotide/issues"
